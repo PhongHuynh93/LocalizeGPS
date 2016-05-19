@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--TODO 11 tao string cho vietnam-->
+<resources>
+    <string name="chat_app">Tin nhắn</string>
+    <string name="email">Địa chỉ thư điện tử</string>
+    <string name="password">Mật khẩu</string>
+    <string name="login">Đăng nhập</string>
+    <string name="signup">Đăng kí</string>
+</resources>

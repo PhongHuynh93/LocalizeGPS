@@ -4,7 +4,7 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
-    <!--TODO 8 khi sử dụng table thì tự động đổi màu cho layout-->
+    <!--TODO 8 khi sử dụng tablet thì tự động đổi màu cho layout-->
     <!--chat app-->
     <color name="colorChatApp">#FFEB3B</color>
     <color name="colorOrange">#F57C00</color>
