@@ -16,14 +16,29 @@
         <!--TODO 1 thêm color trong values-->
         <!--TODO 3 thêm string trong values -->
         <!--TODO 4 thêm dimen trong values-->
-        <TextView
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="90dp"
-            android:text="@string/chat_app"
-            android:textColor="@color/colorWhite"
-            android:textSize="60sp"/>
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chat_app"
+                android:textColor="@color/colorWhite"
+                android:textSize="60sp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
 
         <!--TODO 2 thêm custome edittext trong drawable-->
         <EditText
