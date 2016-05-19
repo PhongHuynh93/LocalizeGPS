@@ -1,0 +1,14 @@
+<resources>
+
+    <!--TODO 6 tạo thêm style khác cho NoActionBar làm trong suốt thanh status bar cùng với chuyển màu đen cho thanh bottom nav-->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:navigationBarColor">@color/bottom_navigation_bar</item>
+    </style>
+
+    <color name="bottom_navigation_bar">#000000</color>
+</resources>

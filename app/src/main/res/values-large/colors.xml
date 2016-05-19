@@ -4,8 +4,9 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
+    <!--TODO 8 khi sử dụng table thì tự động đổi màu cho layout-->
     <!--chat app-->
-    <color name="colorChatApp">#26A69A</color>
+    <color name="colorChatApp">#FFEB3B</color>
     <color name="colorOrange">#F57C00</color>
     <color name="black">#000000</color>
     <color name="colorWhite">#FFFFFF</color>
