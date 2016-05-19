@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:baselineAligned="false">
+
+    <!--TODO 9 tạo 2 layout cho tablet khi nằm ngang-->
+    <fragment
+        android:id="@+id/login_frag"
+        android:name="dhbk.android.localizegps.Fragment.LoginFragment"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        tools:context=".Activity.MainActivity">
+    </fragment>
+
+    <fragment
+        android:id="@+id/register_frag"
+        android:name="dhbk.android.localizegps.Fragment.RegisterFragment"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        tools:context=".Activity.MainActivity">
+    </fragment>
+</LinearLayout>
