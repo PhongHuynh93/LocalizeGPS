@@ -6,16 +6,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                 xmlns:tools="http://schemas.android.com/tools"
-                 android:layout_width="match_parent"
-                 android:layout_height="match_parent"
-                 android:background="@color/colorChatApp"
-                 tools:context=".Fragment.ChatFragment.ChatActivityFragment">
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorChatApp"
+        tools:context=".Fragment.ChatFragment.ChatActivityFragment">
 
-        <!--TODO 1 thêm color trong values-->
-        <!--TODO 3 thêm string trong values -->
-        <!--TODO 4 thêm dimen trong values-->
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -23,6 +21,7 @@
             android:layout_marginTop="90dp"
             android:orientation="vertical"
             >
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -30,36 +29,22 @@
                 android:textColor="@color/colorWhite"
                 android:textSize="60sp"/>
 
-            <!--TODO 12 thêm image voi các dạng resolution khác nhau-->
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:orientation="horizontal">
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_sentiment_very_satisfied_black_18dp"/>
+                <!--TODO 13 với layout v21 thì ta add drawable tương ứng với v21 là dạng vector-->
+                <!--TODO 14 tìm hiều drawable dạng vector có công dụng như thế nào-->
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/ic_sentiment_very_satisfied_black_24dp"/>
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_sentiment_very_satisfied_black_36dp"/>
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_sentiment_very_satisfied_black_48dp"/>
+
             </LinearLayout>
         </LinearLayout>
 
-
-
-
-        <!--TODO 2 thêm custome edittext trong drawable-->
         <EditText
             android:id="@+id/email_login"
             android:layout_width="250dp"
